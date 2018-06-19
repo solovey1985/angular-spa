@@ -1,6 +1,7 @@
 const path = require('path');
 
 module.exports = {
+  mode: "development",
   entry: { 'boot-server': './ClientApp/boot-server.ts' },
   resolve: { 
     extensions: [ '.js', '.ts' ]
